@@ -1,1 +1,34 @@
 
+subj = ['English , Urdu , Pak']
+print(subj)
+
+# append for add something in the list.
+subj1 = ['English , Urdu , Pak']
+subj1.append('Biology')
+print(subj1)
+
+# insert for add something in specific place.
+subj2 = ['English , Urdu , Pak']
+subj2.insert(0,'Biology')
+print(subj2)
+
+#Extend method in list.
+courses = ['pashto, pujabi ,sindhi , arabi']
+courses2 = ['hindi , latini']
+courses.extend(courses2)
+print(courses)
+
+# remove method
+books = ['a','b','c','d']
+books.reverse()
+print(books)
+
+# sort method and reverse sort method.
+x = [2,3,1,5,4]
+x.sort()
+print(x)
+
+# index in list
+z = ['ab', 'cd', 'ef',' gh', 'kl']
+print(z.index('kl'))
+print("cd" in z) # for presence any word or letter.
